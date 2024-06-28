@@ -1,15 +1,20 @@
-MyToken Smart Contract
+# MyToken Smart Contract
+
 This Solidity smart contract defines a simple token with minting and burning functionality. The contract includes public variables to store token details, a mapping to manage balances, and functions to mint and burn tokens.
 
-Description
-This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain.It allows for the creation (minting) and destruction (burning) of tokens, while maintaining an accurate record of token balances and total supply.
 
-Getting Started
-Executing Program
+## Description
+This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain.It allows for the creation (minting) and destruction (burning) of tokens, while maintaining an accurate record of token balances and total supply.
+## Getting Started
+## Executing Program
 To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
 
 Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., Assesment.sol). Copy and paste the following code into the file:
 
+
+
+
+```bash
   //SPDX-License-Identifier:MIT
 pragma solidity 0.8.26;
 /*
@@ -65,3 +70,8 @@ Under the "burn" function, enter the address from which tokens should be burned 
 Under the "balances" function, enter an address to check its token balance.Click the "call" button to retrieve the balance.
 
 Under the totalsupply variable, click the "totalsupply" button to retrieve the total supply of tokens.
+
+
+
+
+
